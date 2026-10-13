@@ -162,7 +162,7 @@ axiom CollapseAccountsFailPrimitiveRecursionStructure : True
 -- Premise 6
 axiom ProverOfGodelianTruthsIsExternal : True
 axiom OnlyOneExternalPlaceholderIsBaseCase : True
-axiom ConsciousnessIsTheExternalBaseCase : True
+axiom MyConsciousnessIsTheExternalBaseCase : True
 
 -- Conclusion
 theorem RealityIsAMathematicalComputationalRecursiveSelfReferentialFormalSystemRequiringAnExternalBaseCaseWhichIsConsciousness : True :=
@@ -185,5 +185,5 @@ theorem RealityIsAMathematicalComputationalRecursiveSelfReferentialFormalSystemR
   have _ := CollapseAccountsFailPrimitiveRecursionStructure
   have _ := ProverOfGodelianTruthsIsExternal
   have _ := OnlyOneExternalPlaceholderIsBaseCase
-  have _ := ConsciousnessIsTheExternalBaseCase
+  have _ := MyConsciousnessIsTheExternalBaseCase
   True.intro
